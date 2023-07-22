@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Fraunces&family=Kumbh+Sans:wght@300&family=League+Spartan:wght@400;500&family=Montserrat:ital,wght@0,500;1,400&family=Outfit&family=Poppins:ital,wght@1,200&family=Red+Hat+Display:ital,wght@0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    margin: 0 auto 80px auto;
+    max-width: 80%;
+}
+
+.social-contener {
+    top: 50px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    color: hsl(300, 43%, 22%);
+}
+
+.social-contener-title {
+    position: relative;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.social-contener-title h1 {
+    padding-right: 126px;
+    font-size: 50px;
+    font-weight: 500px;
+    justify-content: space-between;
+
+}
+
+.social-contener-title p {
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+    padding: 30px 0 39px 0px;
+    color: hsla(300, 43%, 22%, 0.603);
+
+}
+
+.social-star {
+    margin-top: 44px;
+}
+
+.social-proof-star-Reviews {
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 44px;
+    padding: 11px 19px 11px 27px;
+    display: flex;
+    margin-right: 136px;
+    margin-left: 40px;
+    border-radius: 10px;
+
+}
+
+.social-proof-star-Guru {
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 25px;
+    display: flex;
+    margin-left: 106px;
+    padding: 11px 45px 11px 30px;
+    margin-right: 16px;
+    border-radius: 10px;
+
+}
+
+
+.social-proof-star-BestTech {
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 25px;
+    display: flex;
+    margin-left: 174px;
+    padding: 8px 45px 10px 33px;
+    margin-right: -39px;
+    border-radius: 10px;
+}
+
+.social-contant-title {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    top: 20px;
+}
+
+.social-master {
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.social-master-2 {
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.social-master-3 {
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.social-master-2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    top: 15px;
+    position: relative;
+}
+
+.social-master-3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    top: 30px;
+    position: relative;
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-card img {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.social-card .social-info {
+    line-height: 160%;
+    margin-left: 15px;
+}
+
+.social-card .social-info h2 {
+    color: white;
+}
+
+.social-card .social-info p {
+    color: hsl(333, 80%, 67%);
+    font-weight: 100;
+}
+
+.social-content {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: hsl(0, 0%, 100%);
+    line-height: 23px;
+}
+
+@media (max-width:320px) {
+    main {
+        background-image: url(../images/bg-pattern-top-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+    .social-contener-title {
+        align-self: center;
+        text-align: center;
+
+    }
+
+    .social-contener-title h1 {
+        margin-top: 50px;
+        padding-right: 0;
+        font-size: 40px;
+        line-height: 40px;
+        align-self: center;
+        text-align: center;
+
+    }
+
+    .social-contener-title p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .social-contener {
+        top: 50px;
+        margin-top: 20px;
+        justify-content: space-between;
+        display: inline;
+        color: hsl(300, 43%, 22%);
+    }
+
+
+    .social-proof-star-Reviews img {
+        display: inline;
+    }
+
+    .social-star {
+        display: inline;
+
+    }
+
+    .social-proof-star-Reviews {
+        background-color: hsl(300, 24%, 96%);
+        margin-top: 20px;
+        padding: 5px 45px 7px 49px;
+        ;
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+
+    .social-proof-star-Guru {
+        background-color: hsl(300, 24%, 96%);
+        margin-top: 20px;
+        padding: 5px 31px 7px 34px;
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .social-proof-star-BestTech {
+        background-color: hsl(300, 24%, 96%);
+        margin-top: 20px;
+        padding: 5px 50px 7px 38px;
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+
+    .social-contant-title {
+        display: inline;
+        position: relative;
+        bottom: 50px;
+        top: 20px;
+    }
+
+    .social-card img {
+        border-radius: 50px;
+        width: 40px;
+    }
+
+    .social-card .social-info h2 {
+        font-size: 20px;
+        ;
+    }
+
+    .social-card .social-info p {
+        font-size: 14px;
+    }
+
+    .social-content {
+        font-size: 14px;
+    }
+
+    .social-master {
+        width: 283px;
+        border-radius: 10px;
+        padding: 13px;
+        margin-top: 20px;
+        position: relative;
+        margin-left: -14px;
+        margin-right: 15px;
+    }
+
+    .social-master-2 {
+        width: 283px;
+        border-radius: 10px;
+        padding: 13px;
+        margin-top: 20px;
+        position: relative;
+        margin-left: -14px;
+        margin-right: 15px;
+    }
+
+    .social-master-3 {
+        width: 283px;
+        border-radius: 10px;
+        padding: 13px;
+        margin-top: 20px;
+        position: relative;
+        margin-left: -14px;
+        margin-right: 15px;
+    }
+
+
+}
