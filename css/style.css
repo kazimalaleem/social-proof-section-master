@@ -59,34 +59,52 @@ main {
 .social-proof-star-Reviews {
     background-color: hsl(300, 24%, 96%);
     margin-top: 44px;
-    padding: 11px 19px 11px 27px;
+    padding: 15px 33px 15px 34px;
+
     display: flex;
     margin-right: 136px;
     margin-left: 40px;
+    font-weight: bold;
     border-radius: 10px;
 
 }
 
+.social-proof-star-Reviews p {
+        padding-left: 20px;
+
+}
+
+
+
 .social-proof-star-Guru {
     background-color: hsl(300, 24%, 96%);
-    margin-top: 25px;
+    margin-top: 44px;
+    padding: 15px 33px 15px 34px;
     display: flex;
-    margin-left: 106px;
-    padding: 11px 45px 11px 30px;
-    margin-right: 16px;
+    margin-right: 50px;
+    margin-left: 80px;
+    font-weight: bold;
     border-radius: 10px;
-
+}
+.social-proof-star-Guru p{
+    padding-left: 20px;
 }
 
 
 .social-proof-star-BestTech {
     background-color: hsl(300, 24%, 96%);
-    margin-top: 25px;
-    display: flex;
-    margin-left: 174px;
     padding: 8px 45px 10px 33px;
-    margin-right: -39px;
+    margin-top: 33px;
+    padding: 15px 33px 15px 34px;
+    display: flex;
+    margin-right: 2px;
+    margin-left: 118px;
+    font-weight: bold;
     border-radius: 10px;
+}
+.social-proof-star-BestTech p{
+    padding-left: 20px;
+    
 }
 
 .social-contant-title {
